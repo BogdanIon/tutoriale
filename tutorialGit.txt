@@ -1,0 +1,4 @@
+Git version
+Git are nevoie de username si email :
+git config –global user.name “Bogdan Ionut”
+Git config –global 
