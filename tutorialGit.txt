@@ -1,4 +1,44 @@
-Git version
+git version
 Git are nevoie de username si email :
 git config –global user.name “Bogdan Ionut”
-Git config –global 
+git config –global user.email "gherla.bogdan@yahoo.ro"
+git config --global --list
+-Local: -workign directory
+		-staging area
+		-repository (.git folder)
+-Remote
+echo "test git quick start demo" >> start.txt
+cat start.txt
+git add start.txt
+Commit este o comanda locala.
+origin refers to the github copy of our repository //referinta pentru git repository
+master refers to out default and only brach in the repository //master branch on that repository
+notepad++ .bash_profile //path-ul sa fie ~
+cat ~/.gitconfig	//afiseaza configurarile
+git config --global core.editor "notepad++.exe -multiInst -nosession"
+git config --global --list	
+git config --global -e //deschide npp si afiseaza configul
+
+Basic commands
+git init fresh-project //creaza un folder
+npp hipster.txt // deschide npp si creaza un fisier
+git add hipster.txt
+rm -rf fresh-project/ //sterge un folder
+unzip ~/Downloads/initializr-verekia-4.0.zip
+mv initializr web-project //redenumeste un folder
+git init //adauga git folderului
+git add . //adauga toate fisierele
+git commit -m "primul commit"
+Cand se adauga un fisier in folder acesta se va afla in working directory,dupa ce se adauga cu git add va fi in stagin area,dupa commit in repository(.git folder) -tot local,dupa push va fi remote.
+git pull origin master // e bine sa se faca pull inainte de push
+git commit -am "comit" //add + commit
+Dupa orice modificare a fisierelor trebuie sa le adaugi in stage ca sa faci commit.
+git ls-files // file care sunt urmarite de git
+mkdir -p level1/level2/level3
+git add . //adauga toate modificarile din folder.
+git reset HEAD level1-file.txt // 
+git checkout -- level1-file.txt // versiunea din ultimul commit
+
+
+
+
