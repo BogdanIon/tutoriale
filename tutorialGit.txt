@@ -1,4 +1,4 @@
-git version
+﻿git version
 Git are nevoie de username si email :
 git config –global user.name “Bogdan Ionut”
 git config –global user.email "gherla.bogdan@yahoo.ro"
@@ -39,6 +39,6 @@ git add . //adauga toate modificarile din folder.
 git reset HEAD level1-file.txt // 
 git checkout -- level1-file.txt // versiunea din ultimul commit
 
-
+Am ramas la lectia 30,desi ar trebui sa ma mai uit odata la 29
 
 
