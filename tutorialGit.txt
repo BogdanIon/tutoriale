@@ -39,6 +39,8 @@ git add . //adauga toate modificarile din folder.
 git reset HEAD level1-file.txt // 
 git checkout -- level1-file.txt // versiunea din ultimul commit
 
-
+Cand se adauga un fisier git-ul va spune ca este untracked,dupa ce este adaugat,git-ul spune ca trebuie sa facem commit,daca modificam intre timp fisierul si executam git status,vom avea odata ca fisierul a fost modificat si odata ca trebuie sa facem un commit la modificarile vechi.
+git checkout newFile - daca am modificat un fisier nou adaugat (git add .) si vrem sa revina la starea initiala
+git reset HEAD numeleFisierului - e un fel de undo pentru add,il pune in starea de dinainte
 
 
