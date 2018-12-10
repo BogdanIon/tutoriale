@@ -43,4 +43,9 @@ Cand se adauga un fisier git-ul va spune ca este untracked,dupa ce este adaugat,
 git checkout newFile - daca am modificat un fisier nou adaugat (git add .) si vrem sa revina la starea initiala
 git reset HEAD numeleFisierului - e un fel de undo pentru add,il pune in starea de dinainte
 
+redenumire fisier git mv level3-file.txt level3.txt
+daca redenumim cu mv level2-file.txt level2.txt git vede ca si cum am ster  fisierul si am facut altul
+cu mv putem sa mutam si fisiere
+mv level2-file.txt .. // mutam cu cmd-ul
+dupa ce stergem un fisier cu git rm newFile si facem unstage cu reset head,fisierul va fi not stage for commit si trebuie sa facem checkout
 
