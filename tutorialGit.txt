@@ -48,4 +48,12 @@ daca redenumim cu mv level2-file.txt level2.txt git vede ca si cum am ster  fisi
 cu mv putem sa mutam si fisiere
 mv level2-file.txt .. // mutam cu cmd-ul
 dupa ce stergem un fisier cu git rm newFile si facem unstage cu reset head,fisierul va fi not stage for commit si trebuie sa facem checkout
+git log --oneline --graph --decorate // afiseaza ca in source tree
+git log --since="3 days ago"
+git log -- hipster.txt
+git config --global alias.hist "log --all --graph --decorate --oneline" //creaza alias
+npp ~/.gitconfig // deschide config-ul
+cp newFile.txt newFile2.txt // copy fisier
+
+ 
 
