@@ -66,6 +66,16 @@ git config --global --list
 git config --global -e
 
 
+git diff // diferentele
+git difftool // deschide o fereastra in care sunt aratate diferentele
+git difftool --staged HEAD //diferentele dintre stage si local repository(commit)
+git difftool HEAD // diferenta intre local repository si working directory
+HEAD inseamna last commit on branch
+git diff -- simple.html // diferentele doar pt un fisier
+git log --oneline //toate commiturile
+git diff 9ebf083 HEAD compara ultimul commit cu commitul cu id-ul ...
+git difftool 182405f d980320q compara doua commituri
+
 
 
 
