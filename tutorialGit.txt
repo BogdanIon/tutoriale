@@ -76,6 +76,20 @@ git log --oneline //toate commiturile
 git diff 9ebf083 HEAD compara ultimul commit cu commitul cu id-ul ...
 git difftool 182405f d980320q compara doua commituri
 
+//branching
+git branch -a // vezi branch-urile curente
+git branch mynewbranch //creaza un branch nou
+git checkout mynewbranch // sa te muti pe alt branch
+git log --oneline --decorate // istoric
+git branch -m mynewbranch newbranch // redenumire
+git branch -d newbranch //delete the branch
+git diff master title-change //diferenta intre branch-urile
+git difftool master title-change //diferente 
+git merge title-change // update the master
+
+
+
+
 
 
 
