@@ -87,6 +87,7 @@ git diff master title-change //diferenta intre branch-urile
 git difftool master title-change //diferente 
 git merge title-change // update the master
 
+git commit -amend --no-edit // iti adauga la ultimul commit
 
 
 
